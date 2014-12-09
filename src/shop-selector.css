@@ -1,0 +1,52 @@
+
+#shopBox label {
+    float: left;
+    margin-left: 10px;    
+    width:8px;
+    font :20px/1.5 tahoma,arial,\5b8b\4f53;
+    clear:left;
+}
+/* shopSelector */
+.shopSelector{font:12px/1.5 tahoma,arial,\5b8b\4f53;background:#fff;text-align:left;border:1px solid #E77531;width:350px;}
+.contentDiv {border-bottom:1px solid #E77531;margin-top:-1px;clear:left;overflow:auto;padding-bottom:5px;padding-top:5px;margin-bottom:8px;}}
+.cityBox{width:320px;border:1px solid #E77531;overflow:hidden;box-shadow:2px 2px 3px rgba(0,0,0,0.3);}
+.cityBox ul{margin:0;padding:0;overflow:hidden;}
+.cityBox ul li{float:left;list-style:none;padding:2px 4px;border:1px solid #E77531;cursor:pointer;margin-left:4px;display:inline;background:#E1EFFE;}
+.cityBox ul li.on{background:#fff;border-bottom-color:#fff;position:relative;}
+.letterList {margin: 5px 5px;clear:both;}
+.hide{display:none;}
+p.tip{color:#666;line-height:20px;padding:5px;margin:0;text-indent:3px;}
+.hotShop{border-top:1px solid #E77531;margin-top:-1px;clear:left;overflow:auto;padding-bottom:5px;padding-top:5px;margin-bottom:8px;height:200px}
+.cityslide{width:250px;background-color:#FFF;list-style:none;margin:0;padding:0;border:1px solid #E77531;border-right-color:#3485C0;border-bottom-color:#3485C0;box-shadow:2px 2px 3px rgba(0,0,0,0.3);margin-top:-2px;}
+.cityslide li{list-style:none;overflow:hidden;height:16px;padding:4px 5px;}
+.cityslide li.on{background:#9CD9FF;color:#fff;}
+.cityslide li b{font-weight:normal;}
+.cityslide li.empty{background:#fff2e8;color:#666;}
+.cityslide li.empty em{color:red;font-style:normal;}
+.cityname{float:left;}
+.cityspell{float:right;}
+.cityTab{margin-top:-1px;clear:left;padding-bottom:5px;padding-top:5px;margin-bottom:8px;}
+.cityTab dl{margin-left:20px;margin-top:2px;padding:0;overflow:hidden;float:left;width:300px;}
+.cityTab dl dt{float:left;padding-left:6px;padding-top:2px;color:#4572A7;text-indent:5px;font-family:"Lucida console","consolas","courier new";line-height:22px;font-size:16px;width:80px;}
+.cityTab dl dd{margin-left:2px;float:left;width:200px;}
+.cityTab dl dd a{padding-left:5px;width:90px;line-height:22px;display:inline-block;text-decoration:none;}
+.cityTab dl dd a:hover{text-decoration:underline;color:red}
+.cityinput{margin-left:20px;margin-right:5px;border-width:1px;border-style:solid;border-color:#666 #ccc #ccc #666;height:20px;line-height:20px;width:145px;font-size:12px;padding-left:2px;}
+.searchButton {  
+    font: 12px/1.5 tahoma,arial,\5b8b\4f53;
+    line-height: 20px;
+    margin-left: 5px;
+    cursor:pointer;
+  }
+.selected {
+    font-weight:bold;    
+}
+.hideLetter   {color: rgba(255,255,255,0);}
+#letterList a {
+    margin: 5px;
+    color: blue;
+}
+
+a{
+text-decoration:none;
+}
